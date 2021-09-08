@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to left,lightyellow,coral,#9e9ee9);
+}
+
+.inp-field{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 0px 7px 10px;
+    width: 250px;
+}
+
+.container{
+    border: 3px solid black;
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 160px;
+}
+
+.container:hover{
+    box-shadow: 7px 7px 15px grey;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #222020;
+    color: whitesmoke;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+input:focus{
+outline: none;
+}
+
+label{
+    font-weight: 600;
+}
+
+input{
+    margin-bottom: 10px;
+}
